@@ -232,8 +232,6 @@
     "test:unit": "env PORT=4000 MONGOLAB_URI=mongodb://localhost/onetest mocha 'src/**/*.test.js' 'src/**/*test.js' test ",
     "test:coverage": "env PORT=4000 MONGOLAB_URI=mongodb://localhost/onetest istanbul cover _mocha 'src/**/*.test.js' 'src/**/*test.js' test ",
     "screenshots:local": "pageres --delay=2 http://localhost:3000 1024x768 1280x1024 1024x768 1920x1080 600x480 2560x1440 1600x1200 ",
-    "screenshots": "pageres --delay=2 http://onemedia-dashboard.herokuapp.com/ 1024x768 1280x1024 1024x768 1920x1080 600x480 2560x1440 1600x1200 ",
-    "pagespeed": "psi http://onemedia-dashboard.herokuapp.com/",
     "psi": "gulp psi",
     "test:integration-local": "wdio integration-tests/wdio.conf.js",
     "test:integration-local-bs": "wdio integration-tests/wdio.conf.bs.local.js",
