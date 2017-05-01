@@ -1,0 +1,28 @@
+.tipText {
+  padding: 18px;
+}
+
+.region {
+  width: 300 !important;
+  margin: 20;
+  textalign: 'center';
+  display: 'inline-block';
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+}
+
+.hyperlocal {
+  height: 300px !important;
+}
+
+.chipstyles {
+  display: 'flex';
+  flexwrap: 'wrap';
+}
+
+.displaynone {
+  display: none;
+}

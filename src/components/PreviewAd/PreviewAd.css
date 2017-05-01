@@ -1,0 +1,47 @@
+.imagesize {
+  max-width: 120px;
+  max-height: 106px;
+  padding: 1px;
+}
+
+.flexdiv {
+  display: flex;
+  align-items: center;
+}
+
+.addCenter {
+  text-align: center;
+}
+
+.label {
+  font-weight: 100;
+  margin-top: 5px;
+}
+
+.value {
+  font-weight: 400;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.flexitem {
+  background: #673ab7;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.imgitem {
+  max-width: 100px;
+  max-height: 100px;
+}
+

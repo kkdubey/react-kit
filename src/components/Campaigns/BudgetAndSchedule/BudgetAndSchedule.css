@@ -1,0 +1,11 @@
+.container {
+  margin: 2px;
+}
+
+.datecontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+

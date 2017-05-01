@@ -1,0 +1,129 @@
+@import '../../components/variables.css';
+
+.siteanaltics_wrapper {
+  margin: 2px;
+}
+
+.graphssandtoday {
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.fab_wrapper {
+  z-index: 9999;
+  position: fixed;
+  bottom: 100px;
+  right: 1px;
+}
+
+.todaysstatswrapper {
+  margin: 2px;
+  margin-top: 20px;
+  width: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex: 1;
+}
+
+.graphs {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.graph {
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.numbers {
+  display: flex;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.number {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  flex: 1;
+  background-color: var(--metric-green-color);
+}
+
+.numberbg {
+  margin-left: 4px;
+  flex: 1;
+}
+
+.numbersheader {
+  background-color: var(--white-base);
+}
+
+.numberstext {
+  width: 4px;
+  background-color: var(--red-color);
+}
+
+.visitorscardwrapper {
+  margin: 2px;
+}
+
+.visitorscardlayout {
+  margin: 2px;
+}
+
+.visitorscardrow {
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.visitorscardcolumn {
+  margin: 2px;
+  flex: 1;
+}
+
+.graphsswrapper {
+  margin-left: 2px;
+  margin-right: 2px;
+  flex: 2;
+}
+
+.numberswrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.progressbarcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subheader {
+  background-color: var(--subheader-color);
+  font-weight: 400;
+  position: fixed;
+  height: 56px;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  margin-top: 72px;
+  display: flex;
+  align-items: center;
+  text-indent: 20px;
+  color: var(--subheader-text-color);
+}
+
+.selecteddate_container {
+  display: flex;
+}
+
+.selecteddate_container {
+  justify-content: flex-end;
+  margin-right: 20px;
+}

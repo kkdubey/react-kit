@@ -1,0 +1,28 @@
+/*eslint-disable */
+
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+const ContactUsForDemo = new Schema({
+    email: {
+      type: String,
+      required: true,
+    },
+    name: {
+      type: String,
+      required: true,
+    },
+    organisation: {
+      type: String,
+      required: true,
+    },
+    phone: {
+      type: String,
+      required: true,
+    },
+  },
+	{
+    timestamps: true
+  });
+
+module.exports = mongoose.model('ContactUsForDemo', ContactUsForDemo);

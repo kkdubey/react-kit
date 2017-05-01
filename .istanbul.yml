@@ -1,0 +1,35 @@
+instrumentation:
+    root: .
+    extensions:
+      - .js
+    default-excludes: true
+    include-all-sources: true
+    excludes:
+      - node_modules/**
+      - build/**
+      - tools/**
+      - requirements/**
+      - integration-tests/**
+      - webpack.config.js
+      - test/**
+      - src/**/*.test.js
+      - src/**/*test.js
+      - src/routes/register/**
+      - src/routes/login/**
+      - src/routes/UnderConstruction/**
+      - src/components/withViewport.js
+    includes: ['src/**/*.js']
+    es-modules: true
+reporting:
+    print: both
+    reports:
+        - lcov
+        - text
+        - html
+    dir: ./coverage
+check:
+    global:
+        branches: 15
+        lines: 15
+        statements: 15
+        functions: 15

@@ -1,0 +1,29 @@
+@import '../../components/variables.css';
+
+.container {
+  padding: 3%;
+  background: #fff none repeat scroll 0 0 !important;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+}
+
+.subheader {
+  background-color: var(--subheader-color);
+  font-weight: 400;
+  position: fixed;
+  height: 56px;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  margin-top: 72px;
+  display: flex;
+  align-items: center;
+  text-indent: 20px;
+  color: var(--subheader-text-color);
+}

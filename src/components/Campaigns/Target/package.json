@@ -1,0 +1,6 @@
+{
+  "name": "Target",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Target.js"
+}
